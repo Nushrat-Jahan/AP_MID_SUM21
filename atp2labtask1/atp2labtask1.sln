@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atp2labtask1", "atp2labtask1\atp2labtask1.csproj", "{90A876D1-820B-47AB-87A1-45034AE0A6DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90A876D1-820B-47AB-87A1-45034AE0A6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A876D1-820B-47AB-87A1-45034AE0A6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A876D1-820B-47AB-87A1-45034AE0A6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A876D1-820B-47AB-87A1-45034AE0A6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B9D61D9-988D-48A7-A712-24F34964F333}
+	EndGlobalSection
+EndGlobal

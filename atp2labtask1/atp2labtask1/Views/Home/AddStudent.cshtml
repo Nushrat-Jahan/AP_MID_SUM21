@@ -1,0 +1,21 @@
+﻿@model atp2labtask1.Models.Student
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+<h2>AddStudent</h2>
+<div>
+    <form action="/Home/AddStudent" method="post">
+        <input type="text" name="Name" class="form-control" placeholder="Name">
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        <input type="date" name="Dob" class="form-control" placeholder="Date of birth">
+        @Html.ValidationMessageFor(model => model.Dob, "", new { @class = "text-danger" })
+        <input type="text" name="Cgpa" class="form-control" placeholder="CGPA">
+        @Html.ValidationMessageFor(model => model.Cgpa, "", new { @class = "text-danger" })
+        <input type="number" name="Credit" class="form-control" placeholder="Credit">
+        @Html.ValidationMessageFor(model => model.Credit, "", new { @class = "text-danger" })
+        <input type="text" name="DeptId" class="form-control" placeholder="Department Id">
+        @Html.ValidationMessageFor(model => model.DeptId, "", new { @class = "text-danger" })
+        <input type="submit" class="btn btn-block" value="Add" />
+    </form>
+</div>

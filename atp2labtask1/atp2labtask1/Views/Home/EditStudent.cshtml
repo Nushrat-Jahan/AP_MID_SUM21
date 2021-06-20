@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "EditStudent";
+}
+
+@model atp2labtask1.Models.Student
+<h2>EditStudent</h2>
+
+<div>
+    <form action="" method="post">
+        <input type="hidden" name="Id" value="@Model.Id">
+
+        <input type="text" name="Name" class="form-control" placeholder="Enter your name" value="@Model.Name">
+
+        <input type="datetime" name="DOB" class="form-control" value="@Model.Dob">
+
+        <input type="number" name="Credit" class="form-control" placeholder="Credit Count" value="@Model.Credit">
+
+        <input type="text" name="CGPA" class="form-control" placeholder="CGPA value" value="@Model.Cgpa">
+
+        <input type="text" name="DeptId" class="form-control" placeholder="Your Department Id" value="@Model.DeptId">
+
+        <input type="submit" class="btn btn-block" value="Edit" />
+    </form>
+</div>
